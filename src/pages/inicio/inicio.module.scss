@@ -12,3 +12,74 @@
         width: 25%;
     }
 }
+.porqueDoarSection{
+   display: flex;
+   flex-direction:column ;
+   justify-content: space-evenly;
+   height: 73vh;
+   align-items: center;
+
+   h2{
+     font-size: 40px;
+     color: #005695;
+     width: 95%;
+   }
+}
+.cardMotivos{
+    display: flex;
+    height: 45vh;
+    justify-content: space-evenly;
+
+    section{
+        width: 20%;
+        background-color: #0157944D;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 10px;
+        p{
+            font-size: 22px;
+            text-align: center;
+            width: 90%;
+        }
+    }
+}
+
+@media (max-width: 800px){
+
+  .primeiraSessaoInicio{
+    height: 55vh;
+    background-position: center;
+  
+         h2{
+            font-size: 28px;
+            width: 90%;
+            text-align: center;
+         } 
+  }
+ .porqueDoarSection{
+
+    height: 120vh;
+      h2{
+        font-size: 30px;
+        text-align: center;
+      }
+ }
+ .cardMotivos{
+    height: 110vh;
+    flex-direction: column;
+    align-items: center;
+
+      section{
+         width: 60%;
+         height: 25vh;
+           p{
+             font-size: 18px;
+           }
+           img{
+            width: 20%;
+           }
+      }
+ }
+}

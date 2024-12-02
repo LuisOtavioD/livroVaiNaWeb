@@ -19,7 +19,7 @@ export default function Header(){
             </section>
             <nav className={s.navHeader}>
                 <ul>
-                    <li><Link className={s.link}  to='/Inicio'>Início</Link></li>
+                    <li><Link className={s.link}  to='/ '>Início</Link></li>
                     <li><Link className={s.link} to='/livrosDoados'>Livros Doados</Link></li>
                     <li><Link className={s.link} to='/doarLivros'>Quero doar</Link></li>
                 </ul>
@@ -30,7 +30,7 @@ export default function Header(){
             </section>
         </header>
         <Routes>
-            <Route path='/Inicio' element={<Inicio />}/>
+            <Route path='/' element={<Inicio />}/>
             <Route path='/livrosDoados' element={<LivrosDoados />} />
             <Route path='/doarLivros' element={<QueroDoar />} />
         </Routes>

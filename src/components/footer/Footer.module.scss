@@ -1,0 +1,43 @@
+.contatosFooter{
+    background-color: #005695;
+    height: 19vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+     nav{
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+}
+
+.copyright{
+    background-color: #232020;
+    color: #fff;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 800px){
+    .contatosFooter{
+        flex-direction: column;
+        height: 13vh;
+        justify-content: space-evenly;
+        nav{
+            width: 60%;
+        }
+
+
+    }
+
+  .copyright{
+     p{
+        font-size: 12px;
+     width: 60%;
+     text-align: center;
+  }
+     }
+}
